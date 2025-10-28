@@ -40,5 +40,6 @@ public class Main {
         System.out.println(s1.equals(s2) ? "yes" : "no");
         System.out.println();
 
+
     }
 }
