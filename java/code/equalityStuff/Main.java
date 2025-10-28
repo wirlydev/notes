@@ -1,3 +1,5 @@
+package equalityStuff;
+
 import java.util.ArrayList;
 
 public class Main {
@@ -40,6 +42,35 @@ public class Main {
         System.out.println(s1.equals(s2) ? "yes" : "no");
         System.out.println();
 
+        Thanos t = new Thanos();
+        t.setName("Brandon");
 
+        Thanos t2 = new Thanos();
+        
+        System.out.println("does t == t2 when both new Thanos?");
+        System.out.println(t == t2 ? "yes" : "no");
+        System.out.println();
+
+        System.out.println("does t.equals(t2) when both new Thanos?");
+        System.out.println(t.equals(t2) ? "yes" : "no");
+        System.out.println();
+
+        t2 = t;
+
+        System.out.println("does t.equals(t2) when t2 points to t?");
+        System.out.println(t.equals(t2) ? "yes" : "no");
+        System.out.println();
+
+        System.out.println("does t == t2 when t2 points to t?");
+        System.out.println(t == t2 ? "yes" : "no");
+        System.out.println();
+
+        t2 = new Thanos();
+        t2.setName("Brandon");
+
+        System.out.println("does t.equals(t2) when we overide .equals to do a deep comparison?");
+        System.out.println(t.equals(t2) ? "yes" : "no");
+        System.out.println();
+        
     }
 }

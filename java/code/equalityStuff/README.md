@@ -2,7 +2,7 @@
 
 - ==
     - when comparing primitives compares values
-    - when comparing objects it compares memory address
+    - when comparing objects it compares memory address, shallow equality 
     - use when comparing int, double, boolean
 - .equals()
     - when comparing objects compares logical equality
