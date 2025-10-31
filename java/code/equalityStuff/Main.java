@@ -71,6 +71,19 @@ public class Main {
         System.out.println("does t.equals(t2) when we overide .equals to do a deep comparison?");
         System.out.println(t.equals(t2) ? "yes" : "no");
         System.out.println();
-        
+
+        //double
+        double db = 99.573;
+
+        double dba = 13.0;
+        double dbb = 3.0;
+
+        double dbc = dba/dbb;
+
+        //divinding a double by 0 in java produces infinity    
+        dbc = dba/0;
+
+        System.out.println(dbc);
+
     }
 }

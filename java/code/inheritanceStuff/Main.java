@@ -19,6 +19,11 @@ public class Main {
 
         for (int i = 0; i < pets.size(); i++) {
             Pet p = pets.get(i);
+
+            //this is an example of runtime polymorphism,
+            //the determination of which method to run happens at runtime
+            //if the speak method of an instance of a Cat class (snuffy) is called then "Meow"
+            //if the speak method of an instance of a Dog class (bellita) is called then "Bow Wow"
             p.speak();
         }
 
