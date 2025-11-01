@@ -36,5 +36,17 @@ public class Main {
         for (Pet p : pets) {
             System.out.println(p.getName() + " is " + p.getAge());
         }
+
+        Pet otherCat = snuffy;
+
+        System.out.println(otherCat.getName());
+
+        otherCat.setName("OtherCat");
+
+        System.out.println(otherCat.getName());
+        System.out.println("this is snuffy");
+        System.out.println(snuffy.getName());
+
+
     }
 }

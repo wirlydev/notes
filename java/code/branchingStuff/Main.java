@@ -19,38 +19,42 @@ public class Main {
 
         // System.out.println(y);
 
-        char xChar = 'a';
-        xChar = '1';
-        xChar = ' ';
-        xChar = '\n';
-        xChar = '\u2603';
+        // char xChar = 'a';
+        // xChar = '1';
+        // xChar = ' ';
+        // xChar = '\n';
+        // xChar = '\u2603';
 
-        byte b = 65;
-        xChar = (char)b;
+        // byte b = 65;
+        // xChar = (char)b;
 
-        String message = "I am a message";
+        // String message = "I am a message";
 
-        xChar = message.charAt((5));
+        // xChar = message.charAt((5));
 
-        System.out.println(xChar);
+        // System.out.println(xChar);
 
-        //static methods on Character
-        if(Character.isLetter(xChar)){
-            System.out.println("I am a Letter, I always wanted to be a letter!"); 
-        }
-        else if (Character.isDigit(xChar)){
-            System.out.println("I am a Digit"); 
-        }        
-        else if (Character.isWhitespace(xChar)){
-            System.out.println("I am a Whitespace"); 
-        }        
-        else {
-            System.out.println("I am a mysterious"); 
-        }        
+        // //static methods on Character
+        // if(Character.isLetter(xChar)){
+        //     System.out.println("I am a Letter, I always wanted to be a letter!"); 
+        // }
+        // else if (Character.isDigit(xChar)){
+        //     System.out.println("I am a Digit"); 
+        // }        
+        // else if (Character.isWhitespace(xChar)){
+        //     System.out.println("I am a Whitespace"); 
+        // }        
+        // else {
+        //     System.out.println("I am a mysterious"); 
+        // }        
 
+        int oldAge = 50;
+        int yourAge = 51;
 
-
-
-
+        if(yourAge >= oldAge)
+            System.out.println("Damn you are old!");
+        else
+            System.out.println("You don't know anything young kid!");
+            System.out.println("You are too young.");
     }
 }

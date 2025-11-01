@@ -81,9 +81,13 @@ public class Main {
         double dbc = dba/dbb;
 
         //divinding a double by 0 in java produces infinity    
-        dbc = dba/0;
+        //dbc = dba/0;
 
         System.out.println(dbc);
+
+        System.out.println((13.0 == dba));
+        System.out.println(4.33333333333333 == dbc);
+
 
     }
 }
